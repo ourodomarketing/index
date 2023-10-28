@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Venda de eBooks</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .banner {
+            width: 100%;
+            text-align: center;
+            background-color: #3498db;
+            color: #fff;
+            padding: 20px 0;
+        }
+
+        .banner h1 {
+            font-size: 32px;
+        }
+
+        .ebook {
+            display: flex;
+            flex-direction: column;
+            width: 300px;
+            border: 1px solid #ccc;
+            margin: 20px;
+            background-color: #fff;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .ebook .capa {
+            text-align: center;
+        }
+
+        .ebook .capa img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .ebook .detalhes {
+            padding: 20px;
+        }
+
+        .ebook .detalhes h2 {
+            font-size: 20px;
+            margin: 0;
+        }
+
+        .ebook .detalhes p {
+            color: #555;
+        }
+
+        .ebook .preco {
+            padding: 10px 20px;
+            text-align: right;
+            background-color: #3498db;
+            color: #fff;
+        }
+
+        .ebook .preco button {
+            background-color: #e74c3c;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            width: 100%;
+            margin-top: 10px;
+        }
+
+        .ebook .preco button:hover {
+            background-color: #c0392b;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="banner">
+        <h1>Descubra eBooks incríveis para leitura!</h1>
+        <p>Escolha seus eBooks favoritos abaixo:</p>
+    </div>
+
+    <div class="ebook">
+        <div class="capa">
+            <img src="ebook1.jpg" alt="eBook 1">
+        </div>
+        <div class="detalhes">
+            <h2>eBook 1</h2>
+            <p>Descrição do eBook 1</p>
+        </div>
+        <div class="preco">
+            R$ 10,00
+            <a href="https://wa.me/87981529162?text=Olá,%20gostaria%20de%20comprar%20o%20eBook%201">Comprar</a>
+        </div>
+    </div>
+
+    <div class="ebook">
+        <div class="capa">
+            <img src="ebook2.jpg" alt="eBook 2">
+        </div>
+        <div class="detalhes">
+            <h2>eBook 2</h2>
+            <p>Descrição do eBook 2</p>
+        </div>
+        <div class="preco">
+            R$ 15,00
+            <a href="https://wa.me/seu-número-de-telefone?text=Olá,%20gostaria%20de%20comprar%20o%20eBook%202">Comprar</a>
+        </div>
+    </div>
+
+    <div class="ebook">
+        <div class="capa">
+            <img src="ebook3.jpg" alt="eBook 3">
+        </div>
+        <div class="detalhes">
+            <h2>eBook 3</h2>
+            <p>Descrição do eBook 3</p>
+        </div>
+        <div class="preco">
+            R$ 20,00
+            <a href="https://wa.me/seu-número-de-telefone?text=Olá,%20gostaria%20de%20comprar%20o%20eBook%203">Comprar</a>
+        </div>
+    </div>
+</body>
+</html>
